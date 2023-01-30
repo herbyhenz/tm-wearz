@@ -1,0 +1,44 @@
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	border-bottom: 3px solid darkgray;
+	border-right: 3px solid darkgray;
+	width: 300px;
+	text-align: center;
+	box-shadow: 5px 5px #888888;
+	color: darkred;
+	cursor: pointer;
+
+}
+
+h2{
+	font-family: serif;
+	font-size: 5px;
+	color: gold;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.text{
+	border-bottom: 3px solid blue;
+	border-style:outset ;
+	background-color: gray;
+	color: white;
+}
